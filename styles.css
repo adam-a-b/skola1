@@ -60,6 +60,9 @@ header {
     margin-right: 0.5%;
     margin-top: 5px;
     padding-top: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 nav {
     padding-bottom: 1em;
@@ -68,6 +71,7 @@ nav {
 nav a p {
     display: inline;
     margin-right: 1em;
+    text-decoration: underline;
 }
 .title {
     font-size: 3em;
