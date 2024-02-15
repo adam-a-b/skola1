@@ -72,6 +72,10 @@ nav a p {
     display: inline;
     margin-right: 1em;
     text-decoration: underline;
+    transition: font-weight 0.5s ease;
+}
+nav a p:hover {
+    font-weight: 800;
 }
 .title {
     font-size: 3em;
